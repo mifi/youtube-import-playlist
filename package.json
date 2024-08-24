@@ -1,4 +1,14 @@
 {
   "name": "youtube-import-playlist",
-  "packageManager": "yarn@4.2.2"
+  "author": "Mikael Finstad <finstaden@gmail.com>",
+  "license": "MIT",
+ "packageManager": "yarn@4.2.2",
+  "type": "module",
+  "dependencies": {
+    "p-retry": "^6.2.0",
+    "youtubei.js": "^9.4.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.0"
+  }
 }

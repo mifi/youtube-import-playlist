@@ -11,3 +11,8 @@
 
 #!.yarn/cache
 .pnp.*
+
+node_modules
+
+/imported.json
+/source.json
